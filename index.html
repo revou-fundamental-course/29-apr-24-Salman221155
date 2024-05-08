@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <scrip src="https://cdn.jsdelivr.net/npm/twilio@3.66.0/dist/twilio.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Portofolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>haloo.,nama saya muhammad salman alfarisi saya adalah seorang mahasiswa dari sekolah tinggi ilmu  komputer 22 januari kendari</p>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Portofolio</h2>
+        <div class="container">
+            <div class="image-flex">
+              <img src="asset/gambar1.jpeg" alt="Image 1">
+              <img src="asset/gambar2.jpeg" alt="Image 2">
+              <img src="asset/gambar3.png" alt="Image 3">
+              <img src="asset/gambar4.jpg" alt="Image 3">
+            </div>
+    </section>
+    <p>ini aja dah pusing gua bro mau <strong>bobo</strong> dulu</p>
+    <section id="contact">
+        <h2>Kontak</h2>
+        <div class="form-card">
+            <div class="card">
+              <h2>Contact Form</h2>
+              <form id="contact-form">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="tel">Phone:</label>
+                  <input type="tel" id="tel" name="tel" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Hak Cipta &copy; 2024 - Nama Anda</p>
+    </footer>
+
+    <script src="scrip.js"></script>
+</body>
+</html>
